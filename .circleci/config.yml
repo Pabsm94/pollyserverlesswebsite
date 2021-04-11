@@ -28,8 +28,8 @@ jobs:
             cd voiceserverlesswebsite
             hugo
       - deploy:
-          command: |
-            aws s3 sync --delete --acl "public-read" --sse "AES256" voiceserverlesswebsite/public/ s3://route-to-excellence-pblsnt
           aws_auth:
             aws_access_key_id: AKIASJLL7SE4VYJET4NE
             aws_secret_access_key: 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
+          command: |
+            aws s3 sync --delete --acl "public-read" --sse "AES256" voiceserverlesswebsite/public/ s3://route-to-excellence-pblsnt
