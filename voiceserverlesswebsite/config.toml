@@ -10,6 +10,7 @@ uglyurls = true
     description = "A place of excellence"
     author = "Pablo"
     showVisitedLinks = true
+    pollyMediaURL = "https://s3.us-east-1.amazonaws.com/route-to-excellence-polly-pblsnt"
 
 [Languages]
 [Languages.en]
