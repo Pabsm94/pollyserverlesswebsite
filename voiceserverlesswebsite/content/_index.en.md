@@ -11,4 +11,4 @@ draft = false
 
 # First Steps
 
-Discover a new world
+Discover a new world with the trouble-maker cutest dog North.

@@ -11,4 +11,4 @@ draft = false
 
 # Les premieres pas
 
-Decouvrez un monde nouveau
+Decouvrez un monde nouveau avec le chien voyageur North.
