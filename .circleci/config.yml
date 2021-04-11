@@ -3,6 +3,9 @@ jobs:
   build:
     docker:
       - image: amazonlinux
+        aws_auth:
+          aws_access_key_id: AKIASJLL7SE4VYJET4NE
+          aws_secret_access_key: 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
 
     working_directory: ~/repo
 
